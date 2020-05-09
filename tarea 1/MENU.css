@@ -1,0 +1,199 @@
+/*                       opacidad para mi cuadro en mi pagina inicial*/
+.paquete h1{
+    font-size: 40px;
+    letter-spacing: 7px;
+    font-weight: 1000;
+}
+
+.paquete h4{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 150;
+   
+}
+
+.paquete {
+    width: 450px;
+    background: rgba(0, 0, 0, 0.479);
+    padding: 40px;
+    text-align: center;
+    margin: 61.5%;
+    margin-block-end: 3%;
+    margin-block-start: 25%;
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic' , sans-serif;
+    
+
+}
+
+/*                   fin de mi css de  opacidad para mi cuadro en mi pagina inicial*/
+
+
+/*                                                                       -----------------INICIO DE ARREGLOS PARA EL CONTENIDO DE PRIMERA PAGINA*/
+
+
+.titulo {
+    font-family: 'Lato',Calibri, sans-serif;
+  
+    font-size: 2.3em;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  .contenido {
+    font-family: 'Lato',Calibri Light, sans-serif;
+    font-size: 1.3em;
+    font-weight: 200; 
+    padding-bottom: 75px;
+  }
+  
+  .info h1{
+    font-size: 40px;
+    letter-spacing: 7px;
+    font-weight: 100;
+  }
+  
+  .info h2{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 150;
+   
+  }
+  
+  .info {
+    margin-top: 156%;
+    background: rgba(0, 0, 0, 0.74);
+    padding: 35px;
+    text-align: left;
+    margin: left;
+    
+    color: rgb(255, 255, 255);
+    font-family: 'Century Gothic' , sans-serif;
+  
+    width: 90%;
+    margin-block-end: 3%;
+    box-shadow: 0px 0px 60px  rgb(0, 0, 0);;
+    
+    display: block;
+    margin: 0px auto;
+    height: 3365px;
+  
+    
+  
+  }
+  
+    
+    /*                                                                       -----------------FIN DE ARREGLOS PARA EL CONTENIDO DE PRIMERA PAGINA*/
+
+    
+    
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing:border-box;
+  -moz-sizing:border-box;
+  box-sizing:border-box;  
+}
+
+header {
+    margin-top: 10px;
+    width: 100px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+nav {
+    top:-20px;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin: 20px auto;
+    max-width: 1000px;
+    width: 90%;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav > ul {
+    display: table;
+    width: 100%;
+    background: #000;
+    position: relative;
+    opacity: 0.8;
+}
+
+nav > ul li {
+    display: table-cell;
+}
+
+/*menu desplegable*/
+nav >ul> li:hover >ul{
+    display:block;
+    height: 100%;
+}
+
+nav >ul >li> ul {
+    display: block;
+    position: absolute;
+    background: #000;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 0%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+
+
+nav > ul li a {
+    color:rgb(255, 255, 255);
+    display: block;
+    line-height: 20px;
+    padding:20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    
+}
+
+nav > ul >li >ul >li a:hover {
+    background: #5da5a2;
+}
+
+nav > ul >li a span {
+   /* background: #174459;  */
+    background:  #282E2F;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -55px;
+}
+
+nav > ul> li >a span .icon {
+    display: block;
+    line-height: 60px;
+    
+}
+
+nav > ul >li> a:hover >span {
+    top:0;
+    
+}
+
+
+
+  /*                                                            TRANSPARENCIA        */

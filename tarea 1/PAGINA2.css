@@ -1,0 +1,156 @@
+body {                                                    /*      ------------------FONDO DE PAGINA INICIAL   ----------*/
+    background-image: url(img/parte_atras2.jpg) ; 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: normal;
+  }
+  /*                                                                     -----------------Arreglos para mi información de contacto Xd --*/
+  @font-face {                                                         /* iconos estilos utilizados     en base a un tutorial de YOUTUBE lo coloque como algo extra*/
+      font-family: 'icomoon';
+      src:  url('fonts/icomoon.eot?wrdmbd');
+      src:  url('fonts/icomoon.eot?wrdmbd#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?wrdmbd') format('truetype'),
+        url('fonts/icomoon.woff?wrdmbd') format('woff'),
+        url('fonts/icomoon.svg?wrdmbd#icomoon') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    
+  
+
+  .icon-home:before {
+    content: "\e900";
+  }
+
+  .icon-book:before {
+    content: "\e91f";
+  }
+
+    .icon-google-plus2:before {
+      content: "\ea8c";
+    }
+    .icon-facebook2:before {
+      content: "\ea91";
+    }
+    .icon-whatsapp:before {
+      content: "\ea93";
+    }
+    [class^="icon-"], [class*=" icon-"] {
+      
+  
+      font-family: 'icomoon' !important;
+      speak: none;
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+    
+      
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }                                                 /* FIN DE ESTILOS DE iconos estilos utilizados     en base a un tutorial de YOUTUBE lo coloque como algo extra*/
+  
+
+  
+  .CONTACTOS {
+      position: fixed;
+      left:0;
+      top:200px;
+      z-index: 2000;
+  
+  }
+  
+  .CONTACTOS ul {
+      list-style:none;
+  }
+  
+  .CONTACTOS ul li a {
+      display:inline-block;
+      color: #fff;
+      background: #000;
+      padding: 10px 15px;
+      text-decoration: none;
+      -webkit-transition: all 400ms ease;
+      -o-transition: all 300ms ease;
+      transition:all 400ms ease;
+  }
+  
+  .CONTACTOS ul li .icon-facebook2 {background: #2803f5;;}
+  .CONTACTOS ul li .icon-google-plus2 {background:rgb(255, 0, 0);} 
+  .CONTACTOS ul li .icon-whatsapp {background:rgb(12, 155, 48);} 
+  
+  
+  .CONTACTOS ul li a:hover {
+      padding: 10px 30px;
+      background: rgb(73, 73, 71);
+  }
+  
+
+  
+    /*                                                                     ----------------- FIN DE Arreglos para mi información de contacto Xd --*/
+  
+/*  ETIQUETAS DE ESTILO PARA MI TABLA  TERMINA HASTA EL FINAL  */
+    #partes-automovil {
+      margin: 100px ;
+      width: 1150px;
+      height: 1400px;
+  }
+  
+  table {
+      background-color: rgba(46, 41, 41, 0.712);
+      text-align:center;
+      border-collapse: collapse;
+      width: 100%;
+      opacity: 1;
+      color: #fff;
+      font-family: 'Lato',Calibri, sans-serif;
+  
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+  
+  th,td {
+      border:solid 1px black;
+       padding: 5px;
+  
+  }
+  
+  thead{
+    opacity: 0.8;
+      background-color: rgb(0, 0, 0);
+      color: #fff;
+      
+  }
+  
+  tr:nth-child(even) {
+      background-color: rgb(0, 0, 0);
+      color: #fff;
+  }
+
+  
+  
+  tr:hover td {
+      background-color: #292929d8;
+      color: white;
+  
+  
+  }
+    
+  #centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #centrar>img {
+    max-width: 30%;
+    border: 0px;
+    justify-content: center;
+    opacity: 12.5;
+  }
+  
+    
+  
+  

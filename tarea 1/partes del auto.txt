@@ -1,0 +1,24 @@
+- Pagina de inicio
+-Pagina de partes del automovil (con musica)
+-carpeta imagenes
+-carpeta musica
+-
+
+Partes
+
+: 1) llantas
+2) neumaticos
+3)asientos
+4) tapiceria
+5) retrovisor
+6) faros-luces 
+7) puertas
+8) paragolpes
+9)parabrisas
+10) motor
+11) chasis
+12) cuadros de mando
+13) frenos
+14) suspension
+15)caja de cambios
+16)
