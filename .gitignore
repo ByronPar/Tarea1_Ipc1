@@ -1,9 +1,6 @@
-*.gv
-*.png
-*.jpg
-*.CSV
-venv/
-__pycache__/
-.idea/
+
+musica/
+img/
+fonts/
 *.db
 Thumbs.db
