@@ -1,0 +1,9 @@
+*.gv
+*.png
+*.jpg
+*.CSV
+venv/
+__pycache__/
+.idea/
+*.db
+Thumbs.db
